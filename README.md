@@ -7,15 +7,15 @@ team — each member owns one layer of the architecture.
 ## Architecture
 
 ```
-Next.js Frontend UI
-        │
-API Gateway / Auth        (Security Lead)
-        │
-   ┌────┼────┐
-Core   Analytics   Automated
-Backend Pipeline   Test Suite
-        │
-GCP / Terraform + Docker/K8s + CI/CD    (Platform)
+           Next.js Frontend UI
+                  │
+               API Gateway / Auth        (Security Lead)
+                      │
+                 ┌────┼────┐
+              Core   Analytics   Automated
+               Backend Pipeline   Test Suite
+                             │
+Local Data Center (Kind) / Terraform + Docker/K8s + CI/CD    (Platform)
 ```
 
 ## Tech stack
@@ -25,8 +25,8 @@ GCP / Terraform + Docker/K8s + CI/CD    (Platform)
 | Frontend       | Next.js (React) + Tailwind CSS    |
 | Backend API    | Python + FastAPI                  |
 | Database       | PostgreSQL + Redis                |
-| Infrastructure | GCP + Terraform                   |
-| Containers     | Docker + Kubernetes (GKE)         |
+| Infrastructure | Local Data Center / Terraform     |
+| Containers     | Docker + Kubernetes (Kind)        |
 | CI/CD          | GitHub Actions                    |
 | Security       | JWT / RBAC, Trivy, SonarQube      |
 | Testing        | Pytest, Playwright, k6            |
