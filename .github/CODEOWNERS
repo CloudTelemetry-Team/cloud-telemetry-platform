@@ -1,0 +1,8 @@
+# path                team-or-username
+
+/infra/               @ct-team/platform-and-sec
+/k8s/                 @ct-team/platform-and-sec
+/.github/             @ct-team/platform-and-sec
+/backend/             @ct-team/core-backend
+/frontend/            @ct-team/frontend
+
