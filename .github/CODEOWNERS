@@ -1,8 +1,14 @@
-# path                team-or-username
+# Default owners for the repository
+*       @Veer-kaizen
 
-/infra/               @ct-team/platform-and-sec
-/k8s/                 @ct-team/platform-and-sec
-/.github/             @ct-team/platform-and-sec
-/backend/             @ct-team/core-backend
-/frontend/            @ct-team/frontend
+# Platform, Infrastructure & Security
+/infra/                   @CloudTelemetry-Team/platform-and-sec
+/k8s/                     @CloudTelemetry-Team/platform-and-sec
+/.github/                 @CloudTelemetry-Team/platform-and-sec
 
+# Frontend Assets
+/frontend/                @CloudTelemetry-Team/frontend
+
+# Core API, Analytics, and Testing
+/backend/                 @CloudTelemetry-Team/core-backend
+/tests/                   @CloudTelemetry-Team/core-backend
